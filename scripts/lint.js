@@ -13,7 +13,7 @@ const requiredFiles = [
 ];
 
 const forbiddenPatterns = [
-  /TODO\b/i,
+  new RegExp('TO' + 'DO\\b', 'i'),
   /console\.log\(.+secret/i,
   /GITHUB_TOKEN\s*=\s*['\"][^'\"]+/i,
   /SHARED_SECRET\s*=\s*['\"][^'\"]+/i
