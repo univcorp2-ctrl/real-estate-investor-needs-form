@@ -1,0 +1,10 @@
+flowchart TD
+  A[ユーザー] --> B[Google Apps Script]
+  B --> C[Googleフォーム自動作成]
+  B --> D[回答用Googleスプレッドシート自動作成]
+  C --> E[不動産投資家が回答]
+  E --> D
+  D --> F[営業・案件紹介の優先度判定]
+  G[GitHub Actions] --> H[Lint]
+  G --> I[Test]
+  G --> J[Apps Script artifact]
