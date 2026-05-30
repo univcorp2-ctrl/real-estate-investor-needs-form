@@ -1,0 +1,20 @@
+{
+  "name": "real-estate-investor-needs-form",
+  "version": "1.0.0",
+  "description": "Google Apps Script generator for a real estate investor buy-needs Google Form.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "lint": "node scripts/lint.js"
+  },
+  "keywords": [
+    "google-forms",
+    "google-apps-script",
+    "real-estate",
+    "investor-survey"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  }
+}
