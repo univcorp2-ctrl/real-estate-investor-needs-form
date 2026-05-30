@@ -1,0 +1,13 @@
+{
+  "name": "Real Estate Investor Needs Form",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "GitHub.vscode-github-actions",
+        "bierner.markdown-mermaid"
+      ]
+    }
+  },
+  "postCreateCommand": "npm test && npm run lint"
+}
